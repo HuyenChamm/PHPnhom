@@ -1,0 +1,41 @@
+.body-cart{
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    .btnquantity{
+        border: transparent;
+        background-color: $color2;
+        color: $color1;
+        width: 30px;
+        height: 30px;
+    }
+    table {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+
+        .tr1{
+            border-bottom: 2px solid $color2;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .trbtn{
+            position: relative;
+            top: 20px;
+        }
+    }
+    button{
+        background-color: $color2;
+        color: $color1;
+        width: 250px;
+        height: 40px;
+        border: transparent;
+        text-transform: uppercase;
+        #iconback{
+            width: 10px; 
+            padding-right: 10px;
+        }
+    }
+}
