@@ -1,0 +1,25 @@
+.body-contact {
+    // background:linear-gradient( rgba(0, 0, 0, 0.697) 100%, rgba(0, 0, 0, 0.5)100%),url("./img/black_background_metal.jpg");
+    // color: $color1;
+    padding: 100px;
+    h3{
+        text-align: center;
+        font-weight: bold;
+    }
+    tr td {
+        padding: 10px;
+    }
+    input {
+        width: 300px;
+        height: 40px;
+    }
+    button {
+        background-color: $color2;
+        color: $color1;
+        width: 250px;
+        height: 40px;
+        border: transparent;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
