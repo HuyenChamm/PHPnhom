@@ -1,0 +1,92 @@
+.bodyshop {
+    nav {
+        max-width: 280px;
+
+        .title {
+            font-weight: 700;
+            border: 1px $color3 solid;
+        }
+    }
+
+    span {
+        text-transform: uppercase;
+    }
+
+    .product-shop {
+        margin: auto;
+        text-align: center;
+        .item {
+            width: 1100px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            .prd {
+                width: 25%;
+                height: 400px;
+            }
+            img {
+                width: 180px;
+                height: 220px;
+            }
+
+            .name {
+                font-weight: 700;
+                height: 50px;
+                width: 90%;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .sale {
+                background-color: $color2;
+                width: 45px;
+                height: 40px;
+                color: $color1;
+                font-weight: 600;
+            }
+
+            .price {
+                margin: 10px;
+                margin-left: 40px;
+
+                .price-pre {
+                    text-decoration-line: line-through;
+                    margin-right: 10px;
+                }
+            }
+
+            .btn {
+                height: 35px;
+                border-radius: 0%;
+                color: $color1;
+                background-color: $color3;
+                border: #555555 1px solid;
+            }
+        }
+    }
+}
+.pagination {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-2 {
+    a {
+        text-align: center;
+        margin-left: 3px;
+        padding: 0;
+        width: 35px;
+        height: 35px;
+        line-height: 30px;
+        text-decoration: none;
+        color:$color4;
+        background:rgb(241, 238, 238);
+        &:hover{
+            color:$color1;
+            background-color: $color2;
+          }
+    }
+}
