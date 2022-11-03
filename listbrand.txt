@@ -1,0 +1,42 @@
+.listbrand{
+   
+    table {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 70%;
+        margin: auto;
+      }
+      td{
+        text-align: center;
+        border: 1px solid lightgray;
+        padding: 8px;
+      }
+      .td1{
+        text-align:right;
+        padding: 8px;
+      }
+      tr{
+        text-align: left;
+        border-bottom: 1px solid lightgray;
+        padding: 8px;
+      }
+      .tr1{
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      .tr0{
+        text-transform: uppercase;
+        font-weight: 700;
+        border-bottom:3px solid $color2;
+        color: $color2;
+      }
+      a{
+        text-decoration: none;
+        color: $color1;
+      }
+      button
+      {
+        background-color: $color2;
+        border-radius: 5px;
+        border: transparent;
+      }
+}
